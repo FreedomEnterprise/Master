@@ -17,7 +17,7 @@ import java.sql.Statement;
  */
 public class SQLHelper {
     
-    private static String dbURL = "jdbc:derby://localhost:1527/priceDb;create=true;user=Justin;password=jwong";
+    private static String dbURL = "jdbc:derby://localhost:1527/priceDB;create=true;user=Justin;password=jwong";
     private static String tableName = "JUSTIN.PRICES";
     // jdbc Connection
     private static Connection conn = null;
